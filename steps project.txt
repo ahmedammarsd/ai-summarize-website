@@ -1,0 +1,2 @@
+setup project : npm create vite@latest
+install redux toolkit : npm install @reduxjs/toolkit
