@@ -1,2 +1,15 @@
 setup project : npm create vite@latest
 install redux toolkit : npm install @reduxjs/toolkit
+intializ the file stractrues and.....etc
+
+steps for redux toolkit
+  1- npm install @reduxjs/toolkit react-redux
+  2- in main.js file add : 
+  import { Provider } from "react-redux"
+  3- add Provider in main.js
+    <Provider>
+     <App />
+    </Provider>
+  4- create folder the name services in src  
+  5- create file store in services folder
+  6- in file store add : import { configureStore } from "@reduxjs/toolkit"; 
